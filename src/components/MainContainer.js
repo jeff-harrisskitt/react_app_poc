@@ -3,7 +3,7 @@ function MainContainer(background ,content1, content2) {
         <div className="main-container"
             style={{
                 backgroundImage: `url(${background})`,
-                backgroundColor: `#5B5B5B`
+                backgroundColor: `#B3B3B3`
             }}>            
             {content1}
             {content2}
