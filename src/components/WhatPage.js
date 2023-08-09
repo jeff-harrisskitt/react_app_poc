@@ -1,10 +1,10 @@
-import bckgrnd from '../img/fun-classy-landing-3-min.jpg'
-import FBLogo from '../logos/facebook.webp'
-import PPLogo from '../logos/paypal.png'
-import DBLogo from '../logos/dropbox.jpg'
-import SFLogo from '../logos/salesforce-2.png'
+import bckgrnd from '../img/fun-classy-landing-3-min.jpg';
+import FBLogo from '../logos/facebook.webp';
+import PPLogo from '../logos/paypal.png';
+import DBLogo from '../logos/dropbox.jpg';
+import SFLogo from '../logos/salesforce-2.png';
 import LeftContainer from './LeftContainer.js';
-import RightContainer from './RightContainer.js'
+import RightContainer from './RightContainer.js';
 import MainContainer from './MainContainer.js';
 
 function WhatPage() {

@@ -1,9 +1,9 @@
-import bckgrnd from '../img/why-use-img-1-min.jpg'
-import UELogo from '../logos/ubereats-2.png'
-import KALogo from '../logos/khan acedemt-2.png'
-import MSLogo from '../logos/microsoft-2.png'
+import bckgrnd from '../img/why-use-img-1-min.jpg';
+import UELogo from '../logos/ubereats-2.png';
+import KALogo from '../logos/khan acedemt-2.png';
+import MSLogo from '../logos/microsoft-2.png';
 import LeftContainer from './LeftContainer.js';
-import RightContainer from './RightContainer.js'
+import RightContainer from './RightContainer.js';
 import MainContainer from './MainContainer.js';
 
 function WhyPage() {

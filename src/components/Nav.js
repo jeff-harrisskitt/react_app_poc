@@ -5,7 +5,10 @@ function Nav() {
       <nav>
         <ul className="nav-menu-list">
             <li className="nav-menu-item">
-                <NavLink to="/">WHAT IS REACT</NavLink>                
+                <NavLink to="/">HOME</NavLink>                
+            </li>
+            <li className="nav-menu-item">
+                <NavLink to="/what">WHAT IS REACT</NavLink>                
             </li>
             <li className="nav-menu-item">                
                 <NavLink to="/why">WHY USE REACT</NavLink>

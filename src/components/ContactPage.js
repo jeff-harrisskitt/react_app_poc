@@ -1,7 +1,7 @@
-import bckgrnd from '../img/fun-classy-contact-min.jpg'
+import bckgrnd from '../img/fun-classy-contact-min.jpg';
 import MainContainer from './MainContainer.js';
 import ContactContainer from './Contact';
-import RightContainer from './RightContainer.js'
+import RightContainer from './RightContainer.js';
 
 function ContactPage() {
     return (

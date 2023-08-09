@@ -1,5 +1,5 @@
-import SCWLogo from '../logos/scw_logo_mono_white_txt_no_bg.png'
-import NHSLogo from '../logos/nhs_white_transparent_bg - Compressed.png'
+import SCWLogo from '../logos/scw_logo_mono_white_txt_no_bg.png';
+import NHSLogo from '../logos/nhs_white_transparent_bg - Compressed.png';
 
 function TitleBar() {
     return (

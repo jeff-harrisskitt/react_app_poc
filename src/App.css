@@ -1,5 +1,6 @@
-
+/******************/
 /* Top Level stylings */
+/******************/
 .App {
   display: flex;
   flex-direction: column;
@@ -18,7 +19,13 @@ header, footer {
   justify-content: center;
 }
 
+body {
+  overflow-y: hidden;
+}
+
+/******************/
 /* Title bar style */
+/******************/
 .title-bar {
   display: flex;
   justify-content: space-between;
@@ -48,7 +55,9 @@ header, footer {
   margin-top: 0;
 }
 
+/******************/
 /* Nav menu style */
+/******************/
 nav {
   display: flex;
   width: 100%;
@@ -86,15 +95,13 @@ nav {
   transition: 0.2s;
 }
 
-.nav-menu-item a:hover {
-  background-color: #707070;
-}
-
 .active {
   background-color: #2b2b2b;
 }
 
+/******************/
 /* Container styling */
+/******************/
 .main-container {
   display: flex;
   justify-content: space-around;
@@ -165,4 +172,30 @@ nav {
 
 .contact {
   width: 35%;
+}
+
+.landing-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.landing-container div,
+.landing-container div img {
+  width: 65%;
+}
+
+/******************/
+/* Animations */
+/******************/
+
+.nav-menu-item a:hover {
+  transition: font-size 0.25s background-color 0s;
+  background-color: #707070;
+  font-size: 2.2vmin;
+}
+
+.org-logo:hover {
+  transform: scale(1.05);
+  transition-duration: 0.25s;
 }
