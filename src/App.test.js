@@ -8,6 +8,6 @@ test('renders learn react link', () => {
         <App />
       </BrowserRouter>    
   );
-  const linkElement = screen.getByText(/React is a Javascript-based web development library/i);
+  const linkElement = screen.getByText(/Digital Intelligence/i);
   expect(linkElement).toBeInTheDocument();
 });
